@@ -59,8 +59,9 @@ def start_calender():
             del calender[date]
             print "Deleted event successfully!"
             print calender
-          else:
-            print "Event entered is incorrect!"
+            break
+        else:
+          print "Event entered is incorrect!"
     elif user_choice == 'X':
       start = False
     else:
